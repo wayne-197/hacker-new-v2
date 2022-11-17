@@ -27,7 +27,7 @@ function App() {
     getPostPerPage();
     let interval = setInterval(() => getPostPerPage(), 120000);
     return () => clearInterval(interval);
-  }, [page, query]);
+  }, [page, query]);// eslint-disable-line react-hooks/exhaustive-deps
 
 
   const getPostPerPage = () => {

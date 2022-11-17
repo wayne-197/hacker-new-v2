@@ -1,5 +1,4 @@
 import '../styles/searchbar.css';
-import glass from '../images/glass.svg';
 const Searchbar = ({onChange, onClick, search, value}) =>{
     return(
 
