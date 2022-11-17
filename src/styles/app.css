@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+
+  background-color: #182a52;
+}
+
+#container{
+  min-height: 550px;
+}
+
+
+.spinner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    animation: spin 2s ease-in-out infinite;
+    -webkit-animation: spin 2s ease-in-out infinite;
+}
+
+.spinner i {
+  color: #0e49b5;
+  font-size: 3em;
+}
+
+.error-message{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    padding: 30px;
+    border: 3px solid #0e49b5;
+    border-radius: 10px;
+    box-shadow:inset 2px 2px 0px 0px #0e49b5; 
+    transition: box-shadow 0.5s;
+    margin: 3em auto;
+    font-size: 1.5em;
+}
+
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+
+

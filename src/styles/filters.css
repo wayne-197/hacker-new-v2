@@ -1,0 +1,42 @@
+.filter-container{
+    width: 100%;
+    background: linear-gradient(180deg, #2d4881, #182a52);
+
+    padding: 0.5em;
+}
+
+.dropdown-select{
+    width: 10%;
+    padding: 0 5px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    color: #858584;
+    font-size: 0.8em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown-text{
+    color: #ffffff;
+    font-size: 0.9em;
+    margin-left: 2em;
+}
+
+@media all and (max-width : 992px){
+    body{
+        font-size: 15px !important;
+    }
+    .dropdown-select{
+        width: 15%;
+    }
+}
+
+@media all and (max-width : 688px){
+    body{
+        font-size: 14px !important;
+    }
+    .dropdown-select{
+        width: 20%;
+    }
+}
+
