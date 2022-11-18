@@ -1,7 +1,10 @@
 {
-  "homepage": "http://kajalben.github.io/hacker-news-api",
   "name": "my-hacker",
   "version": "0.1.0",
+  "engines": {
+    "npm": "8.x",
+    "node": "16.x"
+  },
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
